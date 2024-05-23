@@ -27,7 +27,7 @@ func post(client *http.Client, path string, header http.Header, timeoutMs uint64
 	client.Timeout = time.Millisecond * time.Duration(timeoutMs)
 
 	body := util.GetUrlFormedMap(params)
-	request, errNew := http.NewRequest(http.MethodPost, path, strings.NewReader(body))
+	request, errNew := http.NewRequest(http.MethodPost, path+"?"+body, strings.NewReader(body))
 	if errNew != nil {
 		err = errNew
 		return
