@@ -25,13 +25,13 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/nacos-group/nacos-sdk-go/clients/cache"
-	"github.com/nacos-group/nacos-sdk-go/clients/nacos_client"
-	"github.com/nacos-group/nacos-sdk-go/common/constant"
-	"github.com/nacos-group/nacos-sdk-go/common/http_agent"
-	"github.com/nacos-group/nacos-sdk-go/mock"
-	"github.com/nacos-group/nacos-sdk-go/util"
-	"github.com/nacos-group/nacos-sdk-go/vo"
+	"github.com/bidaya0/nacos-sdk-go/clients/cache"
+	"github.com/bidaya0/nacos-sdk-go/clients/nacos_client"
+	"github.com/bidaya0/nacos-sdk-go/common/constant"
+	"github.com/bidaya0/nacos-sdk-go/common/http_agent"
+	"github.com/bidaya0/nacos-sdk-go/mock"
+	"github.com/bidaya0/nacos-sdk-go/util"
+	"github.com/bidaya0/nacos-sdk-go/vo"
 	"github.com/stretchr/testify/assert"
 )
 

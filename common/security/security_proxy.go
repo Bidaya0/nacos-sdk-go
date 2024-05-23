@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/nacos-group/nacos-sdk-go/common/constant"
-	"github.com/nacos-group/nacos-sdk-go/common/http_agent"
-	"github.com/nacos-group/nacos-sdk-go/common/logger"
+	"github.com/bidaya0/nacos-sdk-go/common/constant"
+	"github.com/bidaya0/nacos-sdk-go/common/http_agent"
+	"github.com/bidaya0/nacos-sdk-go/common/logger"
 )
 
 type AuthClient struct {

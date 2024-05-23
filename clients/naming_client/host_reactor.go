@@ -26,10 +26,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nacos-group/nacos-sdk-go/clients/cache"
-	"github.com/nacos-group/nacos-sdk-go/common/logger"
-	"github.com/nacos-group/nacos-sdk-go/model"
-	"github.com/nacos-group/nacos-sdk-go/util"
+	"github.com/bidaya0/nacos-sdk-go/clients/cache"
+	"github.com/bidaya0/nacos-sdk-go/common/logger"
+	"github.com/bidaya0/nacos-sdk-go/model"
+	"github.com/bidaya0/nacos-sdk-go/util"
 )
 
 type HostReactor struct {

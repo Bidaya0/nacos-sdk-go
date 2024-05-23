@@ -20,8 +20,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/nacos-group/nacos-sdk-go/common/file"
-	"github.com/nacos-group/nacos-sdk-go/common/logger"
+	"github.com/bidaya0/nacos-sdk-go/common/file"
+	"github.com/bidaya0/nacos-sdk-go/common/logger"
 	"gopkg.in/natefinch/lumberjack.v2"
 )
 

@@ -30,15 +30,15 @@ import (
 
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/kms"
 
-	"github.com/nacos-group/nacos-sdk-go/clients/cache"
-	"github.com/nacos-group/nacos-sdk-go/clients/nacos_client"
-	"github.com/nacos-group/nacos-sdk-go/common/constant"
-	"github.com/nacos-group/nacos-sdk-go/common/http_agent"
-	"github.com/nacos-group/nacos-sdk-go/common/logger"
-	"github.com/nacos-group/nacos-sdk-go/common/nacos_error"
-	"github.com/nacos-group/nacos-sdk-go/model"
-	"github.com/nacos-group/nacos-sdk-go/util"
-	"github.com/nacos-group/nacos-sdk-go/vo"
+	"github.com/bidaya0/nacos-sdk-go/clients/cache"
+	"github.com/bidaya0/nacos-sdk-go/clients/nacos_client"
+	"github.com/bidaya0/nacos-sdk-go/common/constant"
+	"github.com/bidaya0/nacos-sdk-go/common/http_agent"
+	"github.com/bidaya0/nacos-sdk-go/common/logger"
+	"github.com/bidaya0/nacos-sdk-go/common/nacos_error"
+	"github.com/bidaya0/nacos-sdk-go/model"
+	"github.com/bidaya0/nacos-sdk-go/util"
+	"github.com/bidaya0/nacos-sdk-go/vo"
 )
 
 type ConfigClient struct {
